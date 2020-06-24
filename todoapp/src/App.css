@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  background-color: purple;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+.Tasklist{
+  color: cyan;
+  text-align: left;
+  padding: 5%;
+}
+.footer{
+  color: chartreuse;
+}
+
+.paybills{
+  padding: 3%;
+  outline: auto;
+  text-decoration:wavy;
+  margin: 2%;
+}
+
+input{
+ float: right;
+margin: inherit;
+}
+
+.buygroceries{
+  padding: 3%;
+  outline: auto;
+  margin: 2%;
+}
+
+.washclothes{
+  outline: auto;
+  padding: 3%;
+  margin: 2%;
+}
+
+.description{
+  color: bisque;
+  padding-left: 10px;
+  font-size: small;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
